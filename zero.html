@@ -31,22 +31,30 @@
 			line-height: 50px;
 			overflow: hidden;
 		}
-		.nav li{
-			display: block;
+		.nav{
 			text-align: center;
-			margin: 0px;
-			padding:0px;
+		}
+		.nav ul{
+			display: inline-block;
+		}
+		.nav li{
 			float: left;
-			list-style: none;
-			color: #fff;
+			margin-top:12.5px; 
+		}
+		.nav li+li{
+			margin-left: 20px;
+		}
+		a{text-decoration: none;}
+		li{
+			list-style-type: none;
 		}
 	</style>
 </head>
 <body>
 	<div class="content">
 		<div class="top">
-			<div class="danghang">
-			<ul class="nav">
+			<div class="nav">
+			<ul>
 				<li><a href="#">主页</a></li>
 				<li><a href="#">内容</a></li>
 				<li><a href="#">内容</a></li>
